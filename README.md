@@ -24,8 +24,11 @@ This project compares three architectures for time-series forecasting:
 
 The Hybrid CNN-RNN model achieved the lowest RMSE on both AAPL and IBM datasets. The standalone 1D CNN underperformed significantly (RMSE 30.05), converging to a near-constant prediction — likely due to the limited receptive field of a single-layer CNN on this lookback window. This is included transparently as part of the model comparison rather than omitted.
 
-![AAPL Hybrid Prediction](images/aapl_hybrid_prediction.png)
-![IBM Prediction](images/ibm_prediction.png)
+![AAPL Closing Prices](images/aapl_closing_prices.png)
+![RNN Prediction](images/rnn_prediction.png)
+![CNN Prediction](images/cnn_prediction.png)
+![Hybrid CNN-RNN Prediction](images/hybrid_prediction.png)
+![IBM Prediction](images/ibm_prediction_full.png)
 
 ## Tech Stack
 Python · TensorFlow/Keras · NumPy · Pandas · Matplotlib · Scikit-learn
